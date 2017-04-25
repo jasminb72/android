@@ -1,0 +1,31 @@
+Android-first
+Fonctionne.
+C'est en fait l'exercice1 fait par moi
+Une zone texte avec un bouton (qui n'actionne rien).
+Une partie Scrollbar avec du texte
+
+Exercice3
+Fonctionne.
+Le bouton envoie vers l'activité activityDétail
+On garde une data (varAleatoire) à l'état sauvegardé en cas de réinit de l'écran (exemple testé rotation écran qui rappelle onCreate)
+Si après on fait retour, la data est envoyé à MainActivity, et varAleatoire est affiché
+
+Exercice 4 5 6
+Fonctionne.
+Pas de description, pas le temps, voir cours.
+
+Exercice7
+Fonctionne.
+-Si clique sur ok, Sauvegarde de la zone de saisie dans le fichier défault local de l'application et réaffichage au redémarrage de l'application
+-Accès à la base de donnée SQLLite
+
+Exercice9
+dans l'activité détail, Un rond fait une action qui ressemble à une balle qui rebondit.
+Le rebond est fait via l'attribut interpolator
+
+Exercice 10
+Affiche une image pré-chargée d'internet. Pourrait se faire remplacer par une image système en cherchant un peu.
+Il y a un burger menu sur l'activité principale, qui permet d'aller sur une activité de dessin également
+
+Exercice 11
+Affiche une notification quand on clique sur le rond dans la page détails. Attention cette notification est une notification d'application, pas une notification push envoyé par le serveur.

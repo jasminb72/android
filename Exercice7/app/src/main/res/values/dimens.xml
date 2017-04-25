@@ -1,0 +1,26 @@
+<resources>
+
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">8dp</dimen>
+	<dimen name="activity_vertical_margin">8dp</dimen>
+
+	<!-- MainActivity -->
+	<dimen name="hauteur_saisie_main">64dp</dimen>
+	<dimen name="taille_saisie_main">24sp</dimen>
+	<dimen name="padding_saisie_main">16sp</dimen>
+	<dimen name="taille_libelle_bouton_main">24sp</dimen>
+	<dimen name="taille_libelle_long_texte_main">24sp</dimen>
+	<dimen name="marge_cote_long_texte_main">16dp</dimen>
+
+	<!-- MainActivity liste -->
+	<dimen name="padding_libelle_course_main">16dp</dimen>
+	<dimen name="taille_libelle_course_main">20sp</dimen>
+
+	<!-- ExempleFragment -->
+	<dimen name="cote_bouton_exemple">96dp</dimen>
+
+	<!-- Burger menu -->
+	<dimen name="hauteur_header_menu">160dp</dimen>
+	<dimen name="padding_header_menu">16dp</dimen>
+
+</resources>

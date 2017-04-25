@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+	android:id="@+id/drawer_layout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+	tools:openDrawer="start">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/activity_main"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context="com.monentreprise.exercice.activites.MainActivity">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"/>
+
+		<EditText
+			android:id="@+id/champ_saisie"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/hauteur_saisie_main"
+			android:layout_marginLeft="@dimen/activity_horizontal_margin"
+			android:layout_marginStart="@dimen/activity_horizontal_margin"
+			android:layout_marginTop="@dimen/activity_vertical_margin"
+			android:background="@color/couleurFondSaisieMain"
+			android:gravity="center_vertical"
+			android:inputType="text"
+			android:paddingEnd="@dimen/padding_saisie_main"
+			android:paddingLeft="@dimen/padding_saisie_main"
+			android:paddingRight="@dimen/padding_saisie_main"
+			android:paddingStart="@dimen/padding_saisie_main"
+			android:textSize="@dimen/taille_saisie_main"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toLeftOf="@+id/bouton_ok"
+			app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+		<Button
+			android:id="@+id/bouton_ok"
+			android:layout_width="@dimen/hauteur_saisie_main"
+			android:layout_height="@dimen/hauteur_saisie_main"
+			android:layout_marginEnd="@dimen/activity_horizontal_margin"
+			android:layout_marginRight="@dimen/activity_horizontal_margin"
+			android:layout_marginTop="@dimen/activity_vertical_margin"
+			android:background="@drawable/fond_bouton_main"
+			android:onClick="onClicBoutonPrincipal"
+			android:text="@string/libelle_bouton_main"
+			android:textColor="@android:color/white"
+			android:textSize="@dimen/taille_libelle_bouton_main"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/liste_courses"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginBottom="@dimen/activity_vertical_margin"
+			android:layout_marginEnd="@dimen/activity_horizontal_margin"
+			android:layout_marginLeft="@dimen/activity_horizontal_margin"
+			android:layout_marginRight="@dimen/activity_horizontal_margin"
+			android:layout_marginStart="@dimen/activity_horizontal_margin"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/champ_saisie"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.design.widget.NavigationView
+		android:id="@+id/navigation"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"
+		android:fitsSystemWindows="true"
+		app:headerLayout="@layout/main_navigation_header"
+		app:menu="@menu/activity_main_drawer"/>
+
+</android.support.v4.widget.DrawerLayout>

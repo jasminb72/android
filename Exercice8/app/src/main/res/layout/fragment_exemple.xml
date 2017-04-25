@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 xmlns:app="http://schemas.android.com/apk/res-auto"
+			 xmlns:tools="http://schemas.android.com/tools"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 tools:context="com.monentreprise.exercice.fragments.ExempleFragment">
+
+	<com.monentreprise.exercice.vues.RondView
+		android:id="@+id/rond_exemple"
+		android:layout_gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:couleurPerso="@color/couleurRondExemple"/>
+
+</FrameLayout>

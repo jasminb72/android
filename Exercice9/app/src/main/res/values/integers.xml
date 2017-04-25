@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Commun -->
+	<integer name="duree_transition_defaut_activites">400</integer>
+
+	<!-- ExempleFragment -->
+	<integer name="duree_animation_aller_rond_exemple">300</integer>
+	<integer name="duree_animation_retour_rond_exemple">900</integer>
+
+</resources>

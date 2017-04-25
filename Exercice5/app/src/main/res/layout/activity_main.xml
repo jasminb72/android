@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	android:id="@+id/activity_main" xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.monentreprise.exercice.activites.MainActivity">
+
+	<EditText
+		android:id="@+id/champ_saisie"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/hauteur_saisie_main"
+		android:background="@color/couleurFondSaisieMain"
+		android:gravity="center_vertical"
+		android:inputType="text"
+		android:paddingEnd="@dimen/padding_saisie_main"
+		android:paddingLeft="@dimen/padding_saisie_main"
+		android:paddingRight="@dimen/padding_saisie_main"
+		android:paddingStart="@dimen/padding_saisie_main"
+		android:textSize="@dimen/taille_saisie_main"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+	<Button
+		android:id="@+id/bouton_ok"
+		android:layout_width="@dimen/hauteur_saisie_main"
+		android:layout_height="@dimen/hauteur_saisie_main"
+		android:background="@color/couleurBoutonMain"
+		android:onClick="onClicBoutonPrincipal"
+		android:text="@string/libelle_bouton_main"
+		android:textColor="@android:color/white"
+		android:textSize="@dimen/taille_libelle_bouton_main"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/liste_courses"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/champ_saisie"/>
+
+</android.support.constraint.ConstraintLayout>

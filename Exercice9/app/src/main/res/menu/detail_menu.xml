@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<!-- Apparaît comme icône dans l'action bar s'il y a de la place -->
+	<item
+		android:id="@+id/action_favoris"
+		android:icon="@drawable/icone_menu_favori"
+		android:title="@string/detail_menu_favoris"
+		app:showAsAction="ifRoom"/>
+
+	<!-- Apparaît uniquement dans le menu contextuel -->
+	<item
+		android:id="@+id/action_reglages"
+		android:title="@string/detail_menu_reglages"
+		app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Commun -->
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+
+	<!-- MainActivity -->
+	<color name="couleurFondSaisieMain">#CCEA90</color>
+	<color name="couleurBoutonMain">#701100</color>
+	<color name="couleurBoutonMainSelect">#bf1d00</color>
+	<color name="couleurLongTexteMain">#FF7720</color>
+	<color name="couleurFondBoutonBasMain">#F087FF</color>
+
+	<!-- MainActivity liste -->
+	<color name="couleurSelectionItemMain">#FFBBDFFF</color>
+
+	<!-- ExempleFragment -->
+	<color name="couleurFondBoutonExemple">#EACC90</color>
+	<color name="couleurRondExemple">#456789</color>
+
+	<!-- Burger menu -->
+	<color name="couleurFondHeaderMenu">#4CAF50</color>
+
+</resources>

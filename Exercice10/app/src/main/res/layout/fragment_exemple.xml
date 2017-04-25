@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 xmlns:app="http://schemas.android.com/apk/res-auto"
+			 xmlns:tools="http://schemas.android.com/tools"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 tools:context="com.monentreprise.exercice.fragments.ExempleFragment">
+
+	<ImageView
+		android:id="@+id/image_fond"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:contentDescription="@string/description_image_fond"/>
+
+	<com.monentreprise.exercice.vues.RondView
+		android:id="@+id/rond_exemple"
+		android:layout_width="@dimen/cote_rond_exemple"
+		android:layout_height="@dimen/cote_rond_exemple"
+		android:layout_gravity="center"
+		app:couleurPerso="@color/couleurRondExemple"/>
+
+</FrameLayout>

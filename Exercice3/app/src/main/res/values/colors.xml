@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Commun -->
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+
+	<!-- MainActivity -->
+	<color name="couleurFondSaisieMain">#CCEA90</color>
+	<color name="couleurBoutonMain">#701100</color>
+	<color name="couleurLongTexteMain">#FF7720</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+
+	<!-- Commun -->
+	<string name="app_name">Exercice</string>
+
+	<!-- MainActivity -->
+	<string name="libelle_bouton_main">OK</string>
+	<string name="libelle_long_texte_main">Nam faucibus turpis fringilla faucibus ornare. Ut sagittis diam non lorem venenatis tincidunt. Proin nisi est, ullamcorper ac tempor a, rutrum ut
+		nisl. Vestibulum ornare ac metus posuere fermentum.
+	</string>
+</resources>

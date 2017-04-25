@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android-first</string>
+    <string name="button">Button</string>
+    <string name="mytest">Hip hip hop cest parti</string>
+    <string name="textview">TextView</string>
+    <string name="valider">Valider</string>
+    <string name="validerr">validerr</string>
+</resources>
